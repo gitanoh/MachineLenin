@@ -1,0 +1,7 @@
+analyse()
+{
+	Cmazeanswer mazeanswer=Maze.getobservables();//just a interface, I wish I knew how to connect Cmaze with Cagent directly without Cmazeanswer
+	agent.learn(mazeanswer); //copy observables to knowledge tree, update your knowledge about your environment;
+}
+
+	

@@ -1,0 +1,14 @@
+//agent
+
+public class Cagent{
+	private Cknowledge knowledge;
+	private Cdecision decision;
+	private Cstatus status;
+	public Cdecision decides();//in another file
+	public acts(){decision.execute();};
+	public learn(Cmazeanswer mazeanswer);//to develop
+}
+
+	
+
+		

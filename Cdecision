@@ -1,0 +1,11 @@
+/*	father		children			->moveRight,moveLeft, etc
+			-> Cactiontype(move,fight)	->attack, deffend, etc
+	Cdecision			
+
+*/
+class Cdecision
+{
+	public checkaristoteles();//To be defined
+	public getvalidity();//to be herited and implemented by children
+}
+	

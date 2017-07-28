@@ -1,0 +1,24 @@
+In this story, there are TWO PROTAGONISTS:
+
+	The Beauty: Cagent
+
+	And the Beast: Cmaze
+
+Cagent contains his knowledge (Cstatus), his decision for the next action (Cdecision), and can think (decides()) and act (acts())
+
+Cmaze is the overlord, he can do what he wants, because it is not programmed yet.
+	But in principle, he may kill Cagent, spawn enemies, change the walls, or even teleport Cagent whenever and wherever he wants.
+
+
+Cagent can ask Cmaze for information, but for the moment he only asks when he decides(): analyse(). In this function, the maze answers (Cmazeanswer) to his demand, answer that updates his information with the new one (Cmazeanswer.learn())
+
+Once that Cagent has at hand both information about himself and the environment, he asks himself if life is worth living: Aristoteles says that for his life to have sense, he might follow the instructions of The Great Emperor.
+
+From the analysis of The Great Emperor instructions, from the viewpoint of the current situation, aristoteles() suggests one type of action: move towards the exit, attack the nearest enemy... Then the agent will try to discern in mind an action (imagine(action)), and analyse if it really follows Aristoteles' suggestion (decision.checkaristoteles()).
+If that's the case, the decision is taken.
+And the agent.acts(), by simply executing its decision.execute();
+
+The agent may have won (victory()), or maybe not.
+If he has not won yet, then Overlord The Maze resists agent's action, and reacts consequently, using his whole power against him (maze.updates())
+
+Get ready for the next battle! 
