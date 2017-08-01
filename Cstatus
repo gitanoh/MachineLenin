@@ -1,7 +1,0 @@
-//Class Cstatus
-
-class Cstatus
-{
-	public class CPosition position;
-	public class CHealth health;
-}

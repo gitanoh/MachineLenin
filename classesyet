@@ -1,5 +1,0 @@
-Cmaze
-	updates()
-	learn(agent)
-	Cmazeanswer getobservables()
-Cmazenaswer

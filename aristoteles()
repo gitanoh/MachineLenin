@@ -1,9 +1,0 @@
-Caction aristoteles()
-{
-	//The Great Emperor says...
-
-	//Useless serf... get out of my palace! (needless to say: Don't destroy my beautiful walls)
-		Cmove action; //Technical detail: Heritage of Cmove properties to Caction object
-
-	return action;
-}
