@@ -1,0 +1,10 @@
+Kant strikes back!
+
+Once upon a time the lonely and empty existence of the Agent was graced by Phänomena.
+The Agent discovered that Phänomena followed one another in time, and also that when he acted, the Phänomena could happen in an organised way.
+In order to control the Phänomena, the agent strived to group and classify the Phänomena, and after thinking a LOT, he found the Noumena.
+The Noumenon, an intelligible being that cannot be perceived, and the Phänomenon, its perceivable representation.
+
+The Maze has plenty of Noumena(vector<Cnoumena>), but only some of them reveil as Phänomena (showsphaenomena()).
+The agent has FOR NOW a limited number of Noumena in his mind, and when he analyses() reality, the maze answers (Cmazeanswer) with the representation of that limited number of Noumena(vector<Cstatuschild>reveildnoumena), and so he updates(Cstatus.update()) his noumena-structured knowledge (vector<Cstatuschild>statusvariables) about reality.
+

@@ -1,0 +1,4 @@
+class Cstatuschild{
+
+        Tid id;
+}
