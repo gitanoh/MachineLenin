@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/cmaze/Maze.h
+
+Q:/Programming Projects/Local/MachineLenin/intelligiblerealm/src/Main.cpp
+iostream
+-
+Maze.h
+-
+
+Q:/Programming Projects/Local/MachineLenin/intelligiblerealm/src/cmaze/Maze.cpp
+iostream
+-
+
