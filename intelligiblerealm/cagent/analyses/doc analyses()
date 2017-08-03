@@ -8,3 +8,4 @@ The Noumenon, an intelligible being that cannot be perceived, and the Phänomeno
 The Maze has plenty of Noumena(vector<Cnoumena>), but only some of them reveil as Phänomena (showsphaenomena()).
 The agent has FOR NOW a limited number of Noumena in his mind, and when he analyses() reality, the maze answers (Cmazeanswer) with the representation of that limited number of Noumena(vector<Cstatuschild>reveildnoumena), and so he updates(Cstatus.update()) his noumena-structured knowledge (vector<Cstatuschild>statusvariables) about reality.
 
+to    
