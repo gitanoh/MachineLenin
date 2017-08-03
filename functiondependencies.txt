@@ -1,0 +1,31 @@
+# means "include" dependency
+nothing means just use (friendship?)
+
+Cagent
+	#decides()
+	#analyses()
+	#aristoteles()
+	#imagines()
+Cagent.decides()
+	Cagent.analyses()
+	Cagent.aristoteles()
+	Cagent.imagines()
+	Cdecision.checkaristoteles()
+Cagent.analyses()
+	Cmaze.showsphaenomena()
+	Cstatus.update()
+Cagent.aristoteles()
+Cagent.imagines()
+	Caction.try()
+	Cdecision.getvalidity()
+
+Cstatus
+
+Cstatuschild
+
+Cdecision
+
+Caction
+
+Cmazeanswer
+	Cstatuschild.identify()

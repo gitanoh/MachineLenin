@@ -3,9 +3,11 @@
 public class Cagent{
 	private Cdecision decision;
 	private Cstatus status;
-	public Cdecision decides();
+	#include<decides()>
 	public acts(){decision.execute();};
-	public analyses();
+	#include<analyses()>
+	#include<aristoteles()>//from sensible realm
+	#include<imagines()>
 }
 
 

@@ -5,8 +5,8 @@
 */
 class Cdecision
 {
-	public checkaristoteles();//To be defined
-	public getvalidity();//to be herited and implemented by children
+	bool checkaristoteles();//Defined in the sensible realm
+	bool getvalidity();//to be herited and implemented by children
 	execute();
 }
 	

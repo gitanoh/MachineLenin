@@ -1,10 +1,5 @@
 class Cmazeanswer{
 	vector<Cstatuschild> reveilednoumena;
-        adds(Cstatuschild reveilednoumenon){
-        	Tid id=reveilednoumenon.identify();
-        	int i=searchnoumenon(i);
-        	statusvariables[i].updates(reveilednoumenon);//Cstatus.statusvariables
-        	}
         checkvalidity(){        //auxiliary function, unnecessary in principle
                 if (status.nn>reveilednoumena.length())
                       ERROR('maze should provide vewer variables');

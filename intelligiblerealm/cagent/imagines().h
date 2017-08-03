@@ -1,4 +1,4 @@
-Cdecision imagine(Caction action)
+Cdecision imagines(Caction action)
 /*Philosophical detail:
 	In this while loop, tactical validity is checked: Motion cannot be towards the DARKNESS, or you cannot hurt yourself, etc.
 	The loop inside function decides() is STRATEGIC, not tactical, and it is fully related to aristoteles.
@@ -6,7 +6,7 @@ Cdecision imagine(Caction action)
 
 {
 	Cdecision tacticaldecision;
-	bool finish=0;
+	bool finish=false;
 	while(~finish) //Imagining a tactical valid action may not be so evident, and more than one trial can be done
 	{
 		tacticaldecision=action.try(); //Internally things should change so as to not get a infinite loop
