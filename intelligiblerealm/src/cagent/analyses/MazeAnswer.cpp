@@ -1,3 +1,7 @@
+#include<iostream>
+
+using namespace std;
+
 class Cmazeanswer{
 	vector<Cstatuschild> reveilednoumena;
         adds(Cstatuschild reveilednoumenon){
