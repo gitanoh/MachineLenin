@@ -1,6 +1,6 @@
 The Cagent will interact with the Cmaze:
 1) giving information to the Cmaze by executing his decisions (Cdecisions.executes()) through actions (like Caction::Cmove)
-2) receiving information (a Cmazeanswer) from the Cmaze (Cmaze.showsphaenomena).So, the Cagent will NEVER interact with the Noumena.
+2) receiving information (a Cmazeanswer) from the Cmaze (Cmaze.showsphaenomena).So, the Cagent will NEVER interact with the Noumena, nor the Cmaze with the mind of the Cagent.
 
 The Cmaze is made of multiple Noumena.
 When 1), the Cmaze will distribute the information to each Noumena, and in the main function, when Cmaze.updates(), then each of the CNoumenon.updates(), with the information contained in the other Noumena, maze logic (ennemy's IA), etc.
