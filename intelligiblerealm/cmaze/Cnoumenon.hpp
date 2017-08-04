@@ -1,0 +1,3 @@
+class Cnoumenon{
+	Cstatuschild reveils();
+}

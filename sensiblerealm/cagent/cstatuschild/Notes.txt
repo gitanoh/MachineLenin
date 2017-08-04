@@ -1,0 +1,2 @@
+Even if Cstatuschild is a class used both by the Cagent (as his knowledge, Cstatus.vector<Cstatuschild>) and the Cmaze (as its revelation to the agent, Cmazeanswer Cmaze.showsphaenomena()),
+I think it has sense that it is located inside Cagent, since the only reason to exist for the revelation itself is the Cagent.
