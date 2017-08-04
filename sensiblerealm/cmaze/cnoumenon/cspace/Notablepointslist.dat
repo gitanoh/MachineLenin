@@ -1,1 +1,3 @@
-start,end
+name: agent start exit
+x: 0 0 10
+y: 0 0 11
