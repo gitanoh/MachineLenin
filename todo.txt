@@ -1,0 +1,2 @@
+The only remaining thing is to program the transfer of information from the Cagent to the Cmaze through actions. A new class, analog to Cmazeanswer has to be defined, called Cagentanswer, but it should be identical. We could just create a Canswer class, but it is better just to differentiate the origin of the answer by creating two classes, to make things easier to us.
+Of course, work on the Intelligible Realm as in the Sensible Realm should be done!
