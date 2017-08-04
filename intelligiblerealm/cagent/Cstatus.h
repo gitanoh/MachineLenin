@@ -9,7 +9,10 @@ class Cstatus
 	public void adds(Cstatuschild reveilednoumenon){
                 Tid id=reveilednoumenon.identify();
                 int i=searchnoumenon(i);
-                statusvariables[i].updates(reveilednoumenon);
+                if (i<=nn)
+			statusvariables[i].updates(reveilednoumenon);
+		else
+			statusvariables.push_back(reveilednoumenon);//learns new noumenon
 	}
         private int searchnoumenon(Tid id){
                 bool finish=false;
@@ -18,7 +21,7 @@ class Cstatus
                         if(statusvariables[i].id==id)//Cstatus.statusvariables
                                 finish=true;
                         else if(i==nn)
-                                ERROR("Agent has found an unexpected Noumenon");
+                                {finish=true;i++;}
                         else i++;
                 }
                 return i;

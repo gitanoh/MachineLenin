@@ -5,6 +5,16 @@ The Agent discovered that Phänomena followed one another in time, and also that
 In order to control the Phänomena, the agent strived to group and classify the Phänomena, and after thinking a LOT, he found the Noumena.
 The Noumenon, an intelligible being that cannot be perceived, and the Phänomenon, its perceivable representation.
 
-The Maze has plenty of Noumena(vector<Cnoumena>), but only some of them reveil as Phänomena (showsphaenomena()).
-The agent has FOR NOW a limited number of Noumena in his mind, and when he analyses() reality, the maze answers (Cmazeanswer) with the representation of that limited number of Noumena(vector<Cstatuschild>reveildnoumena), and so he updates(Cstatus.update()) his noumena-structured knowledge (vector<Cstatuschild>statusvariables) about reality.
+The Maze has plenty of Noumena(vector<Cnoumenon>), but only some of them will reveil as Phänomena (showsphaenomena()).
+Caution: The revelation is NOT a Cnoumena, it is a revelation, information that the agent can perceive, and it is a Cstatuschild.
 
+Cstatus is the whole status/atributes/knowledge of the agent about himself and the environment. Cstatuschild are each one of the concepts he creates in his mind based on the noumena(their revelations!) he identifies, and Cstatuschild is thus a child class of Cstatus.
+
+As explained before, the Agent is born with an empty vector<Cstatuschild>statusvariables, since he doesn't know how reality looks like. When he analyses() and the maze answers (Cmazeanswer maze.showsphaenomena()), then he can status.update(Cmazeanswer).
+In particular, he gets all Cstatuschild reveilednoumena that the mazeanswer contains, and adds() it to his knowledge, either creating one concept in his mind if he doesn't know it yet (vector<Cstatuschild>statusvariables.push_back) or statusvariables[i].updates(reveiledphenomenon).
+Obviously, the way to update(reveiledphenomenon) depends on the type of phenomenon itself (health, enemydistribution...). That's why there is a different implementation of updates(reveiledphenomenon) in each Cstatuschild.
+
+The whole set of possible Cstatuschild and Cnoumenon belong to the sensible world (i.e. are user-defined).
+
+Language detail: Noumena is the latin plural of Noumenon, and Phänomena is the latin plural of Phänomenon: like data, which is the plural of datum.
+Language Detail 2: In German, every Noun begins with a capital Letter, like in this Sentence.

@@ -1,7 +1,7 @@
 class Cmaze{
 
-        updates();
-        Cmazeanswer showsphaenomena(); //Kantsches Phänomen
-        vector<Cnoumenon> noumena; //Kantches Noumenona
+        void updates();//not yet implemented, void
+        Cmazeanswer showsphaenomena(); //Kantsche Phänomena
+        vector<Cnoumenon> noumena; //Kantche Noumena
 
 }
