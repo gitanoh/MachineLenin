@@ -1,6 +1,9 @@
 class Cmaze{
 	int nn;//Number of Noumena
-        void updates();//not yet implemented, but this time it must do nothing
+        void updates(){
+		for (int i=0;i<nn;i++)
+			noumena[i].updates();
+	};
         Cmazeanswer showsphaenomena(){
 		Cmazeanswer mazeanswer;
 		for(int i=0;i<nn;i++)
@@ -8,5 +11,4 @@ class Cmaze{
 		return mazeanswer;
 	};
         vector<Cnoumenon> noumena; //Kantche Noumena
-
 }

@@ -1,0 +1,13 @@
+The Cagent will interact with the Cmaze:
+1) giving information to the Cmaze by executing his decisions (Cdecisions.executes()) through actions (like Caction::Cmove)
+2) receiving information (a Cmazeanswer) from the Cmaze (Cmaze.showsphaenomena).So, the Cagent will NEVER interact with the Noumena.
+
+The Cmaze is made of multiple Noumena.
+When 1), the Cmaze will distribute the information to each Noumena, and in the main function, when Cmaze.updates(), then each of the CNoumenon.updates(), with the information contained in the other Noumena, maze logic (ennemy's IA), etc.
+When 2), the Cmaze will ask each of its Noumena to output an answer, their revelation (die Phänomena). Then, the Cmaze will gather all answers in one Cmazeanswer and transfer it to the Cagent, which will distribute them among their learnt concepts (the statusvariables in his Cstatus).
+
+A simple example, concerning the Noumenon Cspace.
+1) The Cagent execute the decision of moving (Cmove) and gives Cposition information (it is always a Phänomenon what the Cagent gives to the Cmaze, a Cstatuschild). Then the Cmaze distributes this information to the Cnoumenon::Cspace. When Cmaze.updates(), other Noumena like Cnoumenon::Cennemy will make use of the new information contained in the Cnoumenon::Cspace to update accordingly, to react, and all Noumena will update in this way.
+2) The Cmaze will then give to the Cagent the information of the new state.
+Caution: The Cagent may have decided to Cmove and executed its motion, but maybe a hidden mechanism of the Cmaze has stopped him by suddenly placing a wall in the position he was about to move!
+So the Cagent analyses() and learns from the Cmazeanswer (in the following iteration) which is his new position, and the walls 1/spaces 0 that surround him. He will place this information in his Cstatuschild::CPosition.
