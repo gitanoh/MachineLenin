@@ -1,4 +1,4 @@
 class Caction{
 
-        Cdecision try();
+        virtual Cdecision try() = 0;
 }
